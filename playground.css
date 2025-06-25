@@ -1,0 +1,58 @@
+/* SCROLL EFFECT BELOW HEADER */
+
+.project-header {
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid; */
+}
+
+.project-header h6 {
+  color: white;
+  font-size: 20px;
+  font-family: "Alex Brush", "handwriting";
+  text-align: center;
+  margin: 0;
+  font-size: 70px;
+  border: 2px solid white;
+  padding: 0.5rem;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: 2px solid;
+}
+
+.scroller-wrapper {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.scroller-track {
+  display: flex;
+  animation: scrollLeft 20s linear infinite;
+}
+
+.scroller-item {
+  flex: 0 0 auto;
+  width: 450px;
+  height: 70vh;
+  margin: 0 20px;
+  background: white;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
