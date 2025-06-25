@@ -64,16 +64,20 @@
 
     <nav>
         <ul>
-            <li><a href="#AboutMe">About</a></li>
-            <li><a href="#Services">Services</a></li>
+            <li><a href="#secondSection">My Projects</a></li>
+            <li><a href="#Myservices">Services</a></li>
             <li><a href="#Testimonials">Testimonials</a></li>
-            <li><a href="#Myprojects">My Projects</a></li>
+            <li><a href="#AboutMe">About</a></li>
             <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
 
 
-    <header class="header">
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="header" id="header">
+
         <div class="floating-shapes">
             <div class="shape"
                 style="width: 80px; height: 80px; background: linear-gradient(45deg, #3498db, #9b59b6); border-radius: 50%;">
@@ -90,160 +94,183 @@
             <div class="hero-content">
                 <p class="greeting">Hello, I'm</p>
                 <h1 class="name">Ogbunuko Kosisochukwu</h1>
-                <h2 class="title">Front End-Developer</h2>
+                <h2 class="title">A Front End Developer</h2>
                 <p class="description">
                     Passionate about creating beautiful, functional, and user-centered digital experiences.
                     I bring ideas to life through clean code and innovative design.
                 </p>
 
                 <div class="social-links">
-                    <a href="#" class="social-btn linkedin" aria-label="LinkedIn">
-                        <i class="fi fi-brands-youtube"></i>
+                    <a href="#" class="social-btn linkedin" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
                     </a>
-                    <a href="#" class="social-btn github" aria-label="GitHub">
-                        <i class="fi fi-brands-linkedin"></i>
+                    <a href="#" class="social-btn github" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="#" class="social-btn twitter" aria-label="Twitter">
-                        <i class="fi fi-brands-tik-tok"></i>
+                    <a href="#" class="social-btn twitter" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
                     </a>
-                    <a href="#" class="social-btn instagram" aria-label="Instagram">
-                        <i class="fi fi-brands-github"></i>
+                    <a href="#" class="social-btn instagram" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
                     </a>
-                    <a href="#" class="social-btn dribbble" aria-label="Dribbble">
-                        <i class="fi fi-brands-tik-tok"></i>
+                    <a href="#" class="social-btn dribbble" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
                     </a>
                 </div>
             </div>
         </div>
     </header>
 
-
-
+    <div class="spacer"></div>  
 
 
     <main>
 
-        <!-- //ANIMATION SECTION -->
+        <!-- PLAYGROUND SECTION -->
 
-        <section>
+        <section id="secondSection">
+
+            <!-- <div> <video muted autoplay loop src="video/backgroundcoloreffect.mp4"></video></div> -->
+
 
             <div class="project-header">
-                <h6> playGROUND 🚀</h6>
+                <h6>playGROUND 🚀</h6>
             </div>
 
             <div class="scroller-wrapper">
                 <div class="scroller-track">
-
-                    <div class="scroller-item clip-path">
-
-                        <div class="my-project">
-
-                            <div class="project">
-
-                                <div class="blackimage">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed culpa ad
-                                        tenetur!
-                                        Consequatur,
-                                        corrupti repellat!</p>
-                                    <div class="button">
-                                        <button>join</button>
-                                        <button>reachout</button>
-                                    </div>
-                                </div>
-
-                                <div class="photoimage"></div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-
-
-
-
+                    <!-- <div class="scroller-item">Creative Project 1</div> -->
+                    <div class="scroller-item portfolio">Design Portfolio</div>
+                    <!-- <div class="scroller-item">Web App</div> -->
+                    <!-- <div class="scroller-item">Mobile UI</div> -->
+                    <div class="scroller-item brand">Brand Identity</div>
                     <div class="scroller-item">
-
-                        <div class="edit">
-
-                            <div class="image">
-                            </div>
-
-                            <div class="essential">
-                                <p>ESSENTIAL</p>
-                            </div>
-                            <div class="border">
-                                <img src="images/border.img.png" alt="">
-                            </div>
-                            <div class="words">
-                                <p>Lorem ipsum dolor amet consectetur.</p>
-                            </div>
-                            <div class="back-drop">
-
-                            </div>
-                            <div class="cup">
-                                <img src="images/cup.img.png" alt="">
-                            </div>
-                            <div class="second-words">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus?</p>
-                            </div>
-                            <div class="light-beam">
-
-                            </div>
+                        <div>
+                            <img src="image/mybeautifulgirlpage.png" width="500" alt="" srcset="">
                         </div>
-
-
-
-
                     </div>
+                    <!-- Duplicate for seamless loop "user exprience" -->
 
-
-                    <div class="scroller-item">b0x 3</div>
-                    <div class="scroller-item">Box 4</div>
-                    <div class="scroller-item">Box 5</div>
-                    <div class="scroller-item">Box 6</div>
-                    <!-- duplicate for seamless loop -->
-
-                    <div class="scroller-item clip-path">
-
-                        <div class="my-project">
-
-                            <div class="project">
-
-                                <div class="blackimage">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed culpa ad
-                                        tenetur!
-                                        Consequatur,
-                                        corrupti repellat!</p>
-                                    <div class="button">
-                                        <button>join</button>
-                                        <button>reachout</button>
-                                    </div>
-                                </div>
-
-                                <div class="photoimage"></div>
-                            </div>
+                    <!-- <div class="scroller-item">Creative Project 1</div> -->
+                    <div class="scroller-item portfolio">Design Portfolio</div>
+                    <!-- <div class="scroller-item">Web App</div> -->
+                    <!-- <div class="scroller-item">Mobile UI</div> -->
+                    <div class="scroller-item brand">Brand Identity</div>
+                    <div class="scroller-item">
+                        <div>
+                            <img src="image/mybeautifulgirlpage.png" width="500" alt="" srcset="">
                         </div>
-
-
-
-
                     </div>
-                    <div class="scroller-item">Box 2</div>
-                    <div class="scroller-item">Box 3</div>
-                    <div class="scroller-item">Box 4</div>
-                    <div class="scroller-item">Box 5</div>
-                    <div class="scroller-item">Box 6</div>
                 </div>
             </div>
-
         </section>
+
+
+
+        <script>
+            // Scroll Animation Logic
+            const header = document.getElementById('header');
+            const secondSection = document.getElementById('secondSection');
+            const scrollProgress = document.getElementById('scrollProgress');
+
+            let ticking = false;
+
+            function updateScrollAnimation() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                const windowHeight = window.innerHeight;
+                const documentHeight = document.documentElement.scrollHeight;
+
+                // Calculate scroll progress
+                const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+                scrollProgress.style.width = scrollPercent + '%';
+
+                // Header animation thresholds
+                const headerThreshold = windowHeight * 0.3;
+                const hideHeaderThreshold = windowHeight * 1.2; // Hide header after scrolling past 120% of viewport
+
+                if (scrollTop > hideHeaderThreshold) {
+                    // Hide header completely
+                    header.style.transform = 'translateY(-100vh)';
+                    header.style.opacity = '0';
+                    secondSection.classList.add('active');
+                } else if (scrollTop > headerThreshold) {
+                    // Slide header up but keep visible
+                    header.classList.add('scrolled');
+                    header.style.transform = 'translateY(-50px)';
+                    header.style.opacity = '1';
+                    secondSection.classList.add('active');
+                } else {
+                    // Show header normally
+                    header.classList.remove('scrolled');
+                    header.style.transform = 'translateY(0)';
+                    header.style.opacity = '1';
+                    secondSection.classList.remove('active');
+                }
+
+                // Parallax effect for floating shapes (only when header is visible)
+                if (scrollTop < hideHeaderThreshold) {
+                    const shapes = document.querySelectorAll('.shape');
+                    shapes.forEach((shape, index) => {
+                        const speed = 0.5 + (index * 0.2);
+                        const yPos = -(scrollTop * speed);
+                        shape.style.transform = `translateY(${yPos}px) rotate(${scrollTop * 0.1}deg)`;
+                    });
+                }
+
+                ticking = false;
+            }
+
+            function requestTick() {
+                if (!ticking) {
+                    requestAnimationFrame(updateScrollAnimation);
+                    ticking = true;
+                }
+            }
+
+            // Smooth scroll event handling
+            window.addEventListener('scroll', requestTick, { passive: true });
+
+            // Add smooth scrolling for better performance
+            window.addEventListener('load', () => {
+                document.body.style.scrollBehavior = 'smooth';
+            });
+
+            // Intersection Observer for more precise control
+            const observerOptions = {
+                threshold: [0, 0.25, 0.5, 0.75, 1],
+                rootMargin: '-20% 0px -20% 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.target === secondSection) {
+                        if (entry.isIntersecting) {
+                            secondSection.style.transform = 'translateY(0)';
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            observer.observe(secondSection);
+
+            // Add scroll-to-top functionality
+            let scrollTimeout;
+            window.addEventListener('scroll', () => {
+                clearTimeout(scrollTimeout);
+                scrollTimeout = setTimeout(() => {
+                    if (window.pageYOffset === 0) {
+                        header.style.transform = 'translateY(0)';
+                    }
+                }, 150);
+            });
+        </script>
+
 
 
 
         <!-- //SERVICES SECTION -->
 
-        <article>
+        <article id="Myservices">
 
 
             <div class="services-header">
@@ -252,33 +279,35 @@
 
             <div class="services">
 
-                <div id="service" class="services-writeup reveal">
+                <div id="service" class="services-writeup">
 
-                    <div id="service-box">
+                    <div id="service-box" class="animate-on-scroll stagger-1">
                         <img src="image/responsive.img.jpg" alt="" srcset="">
                         <b>responsive style</b>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nesciunt non necessitatibus
-                            reprehenderit quasi quia? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                            reprehenderit quasi quia? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Laborum
                             inventore eligendi odio vel maiores velit dolore magnam modi omnis expedita.</p>
                     </div>
 
-                    <div id="service-box">
+                    <div id="service-box" class="animate-on-scroll stagger-1">
                         <img src="image/beautiful.img.jpg" alt="">
-                        <b>bueatiful style</b>
+                        <b>bueatiful and creative style</b>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quidem. Laborum ratione
                             modi
                             illo. Quas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, at?
                             Repudiandae consequatur delectus eius architecto eligendi modi .</p>
                     </div>
 
-                    <div id="service-box">
+                    <div id="service-box" class="animate-on-scroll stagger-1">
                         <img src="image/interactive.img.jpg" alt="" srcset="">
                         <b>interactive styling</b>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas dolorem tempore
-                            eligendi, nostrum corporis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+                            eligendi, nostrum corporis? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Illo
                             veritatis ullam veniam aliquid dolor facilis temporibus totam, dolore quos tenetur.</p>
                     </div>
-                    <div id="service-box">
+                    <div id="service-box" class="animate-on-scroll stagger-1">
                         <img src="image/ai.img.jpg" alt="">
                         <b>elementary syling</b>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique sunt earum non nulla
@@ -296,10 +325,60 @@
         </article>
 
 
+        <script>
+            // Services Animation Observer
+            const servicesAnimationConfig = {
+                threshold: 0.15,
+                rootMargin: '0px 0px -80px 0px'
+            };
+
+            const servicesScrollWatcher = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate');
+                        // Stop observing after animation to prevent conflicts
+                        servicesScrollWatcher.unobserve(entry.target);
+                    }
+                });
+            }, servicesAnimationConfig);
+
+            // Initialize services animation on page load
+            document.addEventListener('DOMContentLoaded', () => {
+                const servicesElements = document.querySelectorAll('.animate-on-scroll');
+                servicesElements.forEach(element => {
+                    servicesScrollWatcher.observe(element);
+                });
+            });
+
+            // Optional: Reset functionality for demo (can be removed in production)
+            const servicesResetWatcher = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting && entry.boundingClientRect.top > 0) {
+                        entry.target.classList.remove('animate');
+                        servicesScrollWatcher.observe(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0,
+                rootMargin: '200px 0px 0px 0px'
+            });
+
+            // Enable reset functionality for demo (remove this section in production)
+            document.addEventListener('DOMContentLoaded', () => {
+                const servicesElements = document.querySelectorAll('.animate-on-scroll');
+                servicesElements.forEach(element => {
+                    servicesResetWatcher.observe(element);
+                });
+            });
+        </script>
+
+
+
+
 
         <!-- //TESTIMONIAL SECTION -->
 
-        <div class="texti">
+        <div class="texti" id="Testimonials">
 
             <div class="testimonial-section" id="socials">
 
@@ -313,14 +392,15 @@
                 <div id="carouselExample" class="carousel slide">
 
                     <div class="carousel-header">
-                        <h5 class="dancing-script">testimonials</h5>
+                        <h5 class="dancing-script">testimonials 👑 </h5>
                     </div>
 
                     <div class="carousel-inner">
 
                         <div class="carousel-item active">
                             <div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui magnam asperiores
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui magnam
+                                    asperiores
                                     at!
                                     Id repellendus sequi nisi! Optio, quaerat illo Lorem ipsum dolor sit amet
                                     consectetur adipisicing elit. Unde omnis officiis voluptate dolor eius dolores
@@ -340,7 +420,8 @@
                         <div class="carousel-item">
 
                             <div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui magnam asperiores
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui magnam
+                                    asperiores
                                     at!
                                     Id repellendus sequi nisi! Optio, quaerat illo? Lorem ipsum dolor sit amet
                                     consectetur adipisicing elit. Placeat in omnis impedit quae, autem aliquam?</p>
@@ -357,10 +438,12 @@
                         </div>
                         <div class="carousel-item">
                             <div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui magnam asperiores
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui magnam
+                                    asperiores
                                     at!
                                     Id repellendus sequi nisi! Optio, quaerat illo? Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit. Esse soluta inventore tenetur non ullam aliquam, fuga
+                                    consectetur adipisicing elit. Esse soluta inventore tenetur non ullam aliquam,
+                                    fuga
                                     dicta quia consequuntur provident.</p>
                             </div>
 
@@ -376,11 +459,13 @@
 
                         <div class="carousel-item">
                             <div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui magnam asperiores
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui magnam
+                                    asperiores
                                     at!
                                     Id repellendus sequi nisi! Optio, quaerat illo? Lorem ipsum dolor sit amet
                                     consectetur adipisicing elit. Sed debitis ipsam ut culpa provident dolorem
-                                    perspiciatis suscipit natus, reiciendis assumenda inventore repellat fugiat quidem
+                                    perspiciatis suscipit natus, reiciendis assumenda inventore repellat fugiat
+                                    quidem
                                     quod. Ratione tempora pariatur .</p>
                             </div>
 
@@ -431,7 +516,8 @@
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                <div class="accordion-body">Placeholder content for this accordion, which is
+                                    intended to
                                     demonstrate the <code>.accordion-flush</code> class. This is the first item’s
                                     accordion body.</div>
                             </div>
@@ -446,7 +532,8 @@
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                <div class="accordion-body">Placeholder content for this accordion, which is
+                                    intended to
                                     demonstrate the <code>.accordion-flush</code> class. This is the second item’s
                                     accordion body. Let’s imagine this being filled with some actual content.</div>
                             </div>
@@ -461,9 +548,11 @@
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                <div class="accordion-body">Placeholder content for this accordion, which is
+                                    intended to
                                     demonstrate the <code>.accordion-flush</code> class. This is the third item’s
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
+                                    accordion body. Nothing more exciting happening here in terms of content, but
+                                    just
                                     filling up the space to make it look, at least at first glance, a bit more
                                     representative of how this would look in a real-world application.</div>
                             </div>
@@ -484,22 +573,24 @@
 
 
         <!-- //ABOUT SECTION -->
-        <article class="reveal">
+        <article class="reveal" id="AboutMe">
 
             <div>
                 <div class="about-header">
-                    <h4> 👑 Heartabouts <i class="fa-solid fa-heart-pulse"></i> </h4>
+                    <h4>Heartabouts <i class="fa-solid fa-heart-pulse"></i> </h4>
                 </div>
 
                 <div class="about">
                     <div class="about-left">
-                        <div class="left-bold">"Hardworking developer fueled by coffee, deadlines, and an unreasonable
+                        <div class="left-bold">"Hardworking developer fueled by coffee, deadlines, and an
+                            unreasonable
                             love
                             for
                             to-do lists."</div>
                         <div class="left-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
                             cumque
-                            ullam. Commodi ipsum iste ipsa accusamus earum voluptate. Iure, ipsam reiciendis? Nam quia
+                            ullam. Commodi ipsum iste ipsa accusamus earum voluptate. Iure, ipsam reiciendis? Nam
+                            quia
                             delectus
                             architecto aperiam ratione dignissimos sequi voluptate?</div>
                         <div class="left-second-paragraph">
@@ -553,7 +644,7 @@
 
         <!-- CONTACT ON SOCIALS STARTS HERE -->
 
-        <section class="py-5 reveal" id="contact">
+        <section class="py-5 reveal" id="Contact">
 
 
             <div class="container">
@@ -644,9 +735,9 @@
                     <ul>
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#AboutMe">About</a></li>
-                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Myservices">Services</a></li>
                         <li><a href="#Testimonials">Testimonials</a></li>
-                        <li><a href="#Myprojects">My Projects</a></li>
+                        <li><a href="#secondSection">My Projects</a></li>
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </div>
@@ -656,9 +747,9 @@
                     <ul>
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#AboutMe">About</a></li>
-                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Myservices">Services</a></li>
                         <li><a href="#Testimonials">Testimonials</a></li>
-                        <li><a href="#Myprojects">My Projects</a></li>
+                        <li><a href="#secondSection">My Projects</a></li>
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </div>
