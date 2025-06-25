@@ -1,0 +1,103 @@
+footer {
+  margin: 6rem auto;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  border: 2px solid;
+  /* background: url(../image/about.wallpaper.png); */
+  background: linear-gradient(135deg, #667eea, #764ba2, #fc5c7d, #ff9a9e);
+  background-position: bottom;
+  background-size: cover;
+  border: none;
+}
+
+.footer-box {
+  /* border: 2px solid white; */
+  width: 50%;
+}
+
+.footer-writeup {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid white;
+  height: 20vh;
+  color: white;
+  padding: 2rem;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: inherit;
+  z-index: 1;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.footer-socials a {
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 50%;
+  color: white;
+  margin-top: 2rem;
+}
+
+.footer-socials a i:hover {
+  transform: scale(1.2);
+}
+
+.footer-box-one {
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: none;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.footer-box-one p:first-child {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.footer-box-one p:last-child {
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+
+.footer-box-two ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-box-two p {
+  color: white;
+  font-size: 30px;
+  margin-top: 1rem;
+  border: 10px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 20px;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.footer-box-two ul li {
+  list-style-type: none;
+  padding: 0.7rem;
+}
+
+.footer-box-two a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Albert Sans', sans-serif;
+}

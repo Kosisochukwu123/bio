@@ -1,0 +1,135 @@
+/* .texti{
+ margin: 5rem auto; 
+  padding: 5rem 0rem; 
+} */
+
+.testimonial-section {
+  display: flex;
+  height: 90vh;
+  overflow: hidden;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.carousel {
+  /* border: 2px solid blue !important; */
+  width: 50% !important;
+  background-color: whitesmoke;
+  padding-right: 0rem !important;
+}
+
+.carousel-header {
+  /* border: 2px solid; */
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.carousel-header h5 {
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: 600;
+  /* border: 2px solid; */
+  text-shadow: #667eea;
+}
+
+.carousel-inner {
+  /* border: 3px solid red; */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  height: 90vh !important;
+}
+
+.carousel-item {
+  /* border: 2px solid green !important; */
+  width: 50% !important;
+  margin: 0 auto !important;
+  height: 70vh !important;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  font-family: "Albert Sans", sans-serif;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  border: 12px solid;
+  padding: 1.2rem;
+  background-color: #667eea;
+  border-radius: 20px;
+}
+.carousel-box {
+  border: 2px solid;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  height: 17vh;
+  /* border: 2px solid; */
+  /* display: flex; */
+}
+
+.carousel-text {
+  border: 2px solid;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  padding-left: 1rem;
+}
+
+.carousel-box img {
+  /* border: 2px solid; */
+  width: 20%;
+}
+
+.testimonial-header {
+  width: 70%;
+  border: 8px solid #667eea;
+  background-image: url(../image/testimonial.img.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  margin-left: -4rem;
+  border-bottom: none;
+  border-top: none;
+}
+
+.faq-section {
+  /* border: 2px solid black; */
+  display: flex;
+  margin-top: -6rem;
+}
+
+.faq-section h5 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.faq-writeup {
+  /* border: 2px solid red; */
+  height: 60vh;
+  width: 60%;
+  background-color: whitesmoke;
+}
+
+.faq-image {
+  border: 8px solid blue;
+  width: 48%;
+  height: 60vh;
+  background-image: url(../image/testimonial.img.jpg);
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.accordion {
+  /* border: 2px solid red; */
+  margin: 5rem auto;
+  width: 80%;
+}

@@ -1,0 +1,19 @@
+.brand {
+  background-image: url(../image/Screenshot\ 2025-06-23\ 102219.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio {
+  background-image: url(../image/mywebpage.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.creative {
+  background-image: url(../image/mybeautifulgirlpage.png);
+  background-position: center;
+  background-size: cover;
+  padding: 4rem;
+  width: 20%;
+}
